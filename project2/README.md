@@ -1,84 +1,101 @@
-Bank Project
-https://github.com/Back-end-Project/Bank-Project
+Project: Bank Project - Deployment Focus
+GitHub Repository: https://github.com/Back-end-Project/Bank-Project
 
 High-Level Overview
-Project Purpose
-The Bank Project is a web application designed to simulate banking operations, allowing users to manage their accounts, view transactions, and perform basic banking functions such as deposits and withdrawals.
-
-Users
-The primary users are individuals seeking a user-friendly platform to manage their banking activities, including checking balances, transferring funds, and viewing transaction history.
-
-Job Formation
-The application provides users with the ability to perform essential banking tasks efficiently, reducing the need for physical bank visits and streamlining financial management.
-
-Inspiration
-The inspiration behind the Bank Project came from the increasing demand for digital banking solutions and the desire to create a simple yet effective tool that mimics real banking functionalities for educational purposes.
+* Purpose:
+    * A web application simulating banking operations.
+    * Allows users to:
+        * Manage accounts.
+        * View transactions.
+        * Perform deposits, withdrawals, and fund transfers.
+* Target Users:
+    * Individuals seeking a digital platform for banking activities, including:
+        * Checking balances.
+        * Transferring funds.
+        * Viewing transaction history.
+* Job Formation:
+    * Provides an efficient alternative to physical bank visits.
+    * Streamlines financial management for users.
+* Inspiration:
+    * Derived from the growing demand for digital banking solutions.
+    * Designed as a simple yet effective educational tool to mimic real banking functionalities.
 
 Important Features
-Account Management: Users can create, view, and manage their bank accounts.
-Transaction History: A feature that allows users to view their transaction history.
-Deposit and Withdrawal: Users can perform deposit and withdrawal transactions.
-Fund Transfer: Enables users to transfer funds between accounts.
-STAR Interview Questions
+* Account Management:
+    * Create, view, and manage bank accounts.
+* Transaction History:
+    * View detailed records of transactions.
+* Deposit and Withdrawal:
+    * Perform basic banking transactions securely.
+* Fund Transfer:
+    * Transfer funds between accounts easily.
+
+STAR Interview Breakdown
 Situation
-The application was created to provide a practical solution for users to manage their banking needs digitally while simulating the functionalities of a real bank.
-
+* The project aimed to simulate real banking functionalities for digital financial management.
+* A robust deployment process was critical to ensure accessibility and reliability.
 Task
-The overall structure of the application includes a back-end built with Spring Boot, managing user accounts and transactions through a RESTful API. The design process involved outlining user requirements and defining the database schema.
-
+* Deployment structure included:
+    * Docker: For containerization.
+    * GitHub Actions: For CI/CD automation.
+    * Render: For hosting the application.
 Action
-The code consists of Spring Boot components for handling API requests, security configurations for user authentication, and database interactions using JPA with PostgreSQL. I implemented error handling and validation to ensure data integrity.
-
+* Containerization:
+    * Created a Dockerfile defining the application environment and dependencies.
+* CI/CD:
+    * Set up GitHub Actions workflows to automate:
+        * Testing.
+        * Building.
+        * Deployment.
+* Deployment:
+    * Used Render to host the application, ensuring stability and real-time availability.
 Result
-The final application successfully allows users to perform various banking operations, with a secure and responsive interface. Screenshots illustrate the user interface and demonstrate the application's functionalities.
+* Enabled rapid iteration and seamless updates.
+* Ensured that the application remained stable and accessible.
+* Screenshots of CI/CD pipelines and the app running on Render highlight its effectiveness.
 
-Technologies
-Back-end
-Spring Boot (v3.2.7) for building the RESTful API.
-Java (v17) for application development.
-Database
-PostgreSQL for persistent data storage.
-H2 Database for in-memory testing.
-Dependencies
-Spring Boot Starter Data JPA for database access.
-Spring Boot Starter Security for authentication and authorization.
-Spring Boot Starter Web for building web applications.
-JJWT for JWT handling.
-Lombok for reducing boilerplate code in models.
-Spring Boot Starter Test for testing.
-Deployment Tools
-Heroku for application hosting.
-Postman for API testing.
+Technologies Used
+Containerization:
+* Docker:
+    * Packaged the application and dependencies into portable containers.
+CI/CD:
+* GitHub Actions:
+    * Automated testing, building, and deployment processes.
+Deployment:
+* Render:
+    * Hosted the application and managed the production environment.
+Back-end:
+* Spring Boot (v3.2.7): For building the RESTful API.
+* Java (v17): For application logic.
+Database:
+* PostgreSQL: For persistent data storage.
+* H2 Database: For in-memory testing.
+Dependencies:
+* Spring Boot Starter Data JPA: For database access.
+* Spring Boot Starter Security: For authentication and authorization.
+* Spring Boot Starter Web: For building web applications.
+* JJWT: For JWT handling.
+* Lombok: For reducing boilerplate code in models.
+* Spring Boot Starter Test: For testing.
 
 Competencies
-Web Development
-Full Text: Develop and maintain web applications.
-
-Situation
-During the development of the Bank Project, I was responsible for building a back-end that simulates banking functionalities for users.
-
-Actions
-I utilized Spring Boot for server-side development, focusing on creating RESTful API endpoints for various banking operations. I implemented user authentication and ensured secure access to sensitive data.
-
-Results
-The application was successfully deployed and provided users with a secure and functional banking simulation. This project enhanced my skills in web development, particularly in building robust back-end systems.
-
-Connection to Project
-This competency relates to my role in the Bank Project, where I applied web development principles to create a functional and secure banking application.
-
-Database Management
-Full Text: Design and maintain databases to support application functionality.
-
-Situation
-In the Bank Project, I was tasked with designing the database schema to support user accounts and transaction records.
-
-Actions
-I defined the database schema for users and transactions, ensuring proper relationships and data integrity. I implemented CRUD operations to manage user data and transactions effectively.
-
-Results
-The well-structured database allowed for efficient data retrieval and manipulation, resulting in a smooth user experience. This project deepened my understanding of database management and its critical role in application functionality.
-
-Connection to Project
-This competency is closely tied to my work on the Bank Project, as I was responsible for ensuring that the database effectively supported the application's requirements.
-
-This version improves the readability and structure by separating each section clearly and using headings to guide the reader. Let me know if you need further revisions or additions!
+1. Deployment Management:
+    * Situation:
+        * Deployed the Bank Project to ensure reliability and ease of updates.
+    * Actions:
+        * Used Docker for containerization and defined a Dockerfile.
+        * Automated CI/CD pipeline with GitHub Actions for testing and deployment.
+    * Results:
+        * Improved release efficiency and maintained a deployable application state.
+    * Connection to Project:
+        * Managed and streamlined deployment processes for the Bank Project.
+2. Containerization:
+    * Situation:
+        * Ensured consistency across development and production environments.
+    * Actions:
+        * Created Docker images and defined a Dockerfile.
+        * Configured the environment, dependencies, and application for deployment.
+    * Results:
+        * Achieved reliable deployments with minimal discrepancies between environments.
+    * Connection to Project:
+        * Containerization was essential for the Bank Project’s deployment strategy.
